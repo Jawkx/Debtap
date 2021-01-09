@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import MainPage from './components/MainPage';
+import AddVictims from './components/AddVictims';
+import Victims from './components/Victims';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <div>
+      <Route exact path='/' component={MainPage}/>
+      <Route path='/AddVictims' component={AddVictims}/>
+      <Route path='/Victims/:id' component={Victims}/>
+    </div>
+  </Router>,
   document.getElementById('root')
 );
 

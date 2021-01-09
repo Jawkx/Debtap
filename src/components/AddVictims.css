@@ -1,0 +1,36 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1F1F1F;
+  margin: auto;
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  font-size: 40px;
+  margin-top: 50px;
+  padding-left: 110px;
+  color: #898989;
+  background-color: #1F1F1F;
+  border: 1px;
+  border: 1px;
+  border-color: #1F1F1F;
+}
+
+.form input {
+  width: 100%;
+  border: none;
+  background-color:transparent;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  font-family: 'Roboto Mono', monospace;
+}

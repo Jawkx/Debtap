@@ -1,0 +1,33 @@
+.MainPage{
+  width: 100vw;
+  height: 100vh;
+  background-color: #1F1F1F;
+  margin: auto;
+  position: relative;
+
+}
+
+.Credit {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #898989;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  margin-top: 10em;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  
+}
+
+.container-item {
+  margin: 20px;
+}
+
